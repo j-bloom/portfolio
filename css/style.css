@@ -124,6 +124,10 @@ h3 { font-size: var(--fs-h3); }
   margin-bottom: 2em;
 }
 
+.section__description--work {
+  font-style: italic;
+}
+
 /* header */
 .logo {
   max-width: 20em;
