@@ -6,5 +6,5 @@ The reason for this decision rather than focusing on React, flask or other web f
 I am also currently focusing on improving my php, which also contributed to this decision. The goal is to build this as an SPA, and then eventually convert 
 this using php into a wordpress theme that will allow others to build a portfolio and provide another layout option.  
 <br>
-To give credit where credit is due, a lot of this layout is inspired from a <a href="https://www.youtube.com/@KevinPowell" target="_blank">Kevin Powell</a> design with some tweaks added to it.    
+To give credit where credit is due, a lot of this layout is inspired from a [Kevin Powell](https://www.youtube.com/@KevinPowell) design with some tweaks added to it.    
 
