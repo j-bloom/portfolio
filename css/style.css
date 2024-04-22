@@ -181,7 +181,8 @@ h3 { font-size: var(--fs-h3); }
     position: fixed;
     background: var(--clr-dark);
     color: var(--clr-light);    
-    width:max-content;
+    width: max-content;
+    height: max-content;
     padding: 10% 0;
     margin: 0;
     top: 0;
@@ -199,6 +200,7 @@ h3 { font-size: var(--fs-h3); }
     flex-direction: column;
     justify-content: space-evenly;
     align-items:center;
+    width: 20em;
     margin: 0;
     padding: 0;
   }
