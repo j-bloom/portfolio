@@ -1,278 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>J-bloom Portfolio</title>
 
-        <!-- Normalization -->
-        <link rel="stylesheet" 
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        
-        <!-- Font Awesome -->
-        <link rel="stylesheet" 
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css" 
-            integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==" 
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-bloom Portfolio</title>
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- Normalization -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="images\devjaron.PNG" alt="logo"/>
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">Skills</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#experience-timeline" class="nav__link">Timeline</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="https://github.com/j-bloom/portfolio" target="_blank" class="nav__link">Project source code</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
+        integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- Introduction Section -->
-        <section id="home" class="intro">
-            <h1 class="section__title section__title--intro">Hello, I'm <strong>Jaron Bloom</strong></h1>
-            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-            <img src="images/JaronPhoto.png" alt="A photo of Jaron" class="intro__img">
-        </section>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 
-        <!-- My Skills -->
-        <section id="skills" class="my-skills">
-            <h2 class="section__title section__title--skills">What I Know</h2>
-            <div class="skills">
-                <div class="skill">
-                    <div class="card">
-                        <h3 class="card__heading">Languages</h3>
-                        <ul class="card__list">
-                            <li>C#</li>
-                            <li>C++</li>
-                            <li>Python</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                        </ul>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images\devjaron.PNG" alt="logo" />
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About Me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience-timeline" class="nav__link">Timeline</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://github.com/j-bloom/portfolio" target="_blank" class="nav__link">Project source
+                        code</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="home" class="intro">
+        <h1 class="section__title section__title--intro">Hello, I'm <strong>Jaron Bloom</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+        <img src="images/JaronPhoto.png" alt="A photo of Jaron" class="intro__img">
+    </section>
+
+    <!-- My Skills -->
+    <section id="skills" class="my-skills">
+        <h2 class="section__title section__title--skills">What I Know</h2>
+        <div class="skills">
+            <div class="skill">
+                <div class="card">
+                    <h3 class="card__heading">Languages</h3>
+                    <ul class="card__list">
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div> <!-- /skill -->
+            <div class="skill">
+                <div class="card">
+                    <h3 class="card__heading">Tools</h3>
+                    <ul class="card__list">
+                        <li>Jira</li>
+                        <li>Selenium</li>
+                        <li>Azure Devops</li>
+                        <li>Git/GitHub</li>
+                        <li>MSSQL</li>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+            </div> <!-- /skill -->
+        </div> <!-- /skills -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about-me">
+        <h2 class="section__title section__title--about">About me</h2>
+        <p class="section__subtitle section__subtitle--about">Who I am</p>
+
+        <div class="about-me__body">
+            <p>Hi! I am a newly graduated Computer Science student.
+                During my time at Seneca Polytechnic, I have taken a Computer Programming & Analysis
+                program which was an Advanced Diploma as well as an Honours Bachelor of Technology -
+                Software Development program.
+            </p>
+            <p>
+                Being a self starter with a drive to learn and create new things by building software
+                and experimenting with different technology, I have been able to not only complete my
+                schooling but also gained invaluable work experience with different companies during my
+                co-op placements. I am currently working as a Test Engineer at <a
+                    href="https://www.dayforce.com/">Dayforce</a>.
+            </p>
+        </div>
+
+        <img src="images/JaronandPatchy.png" alt="A photo of Jaron" class="about-me__img">
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience-timeline" class="my-experience-timeline">
+        <div class="timeline-area">
+            <div class="container">
+                <div class="timelines">
+                    <h2>Experience Timeline</h2>
+                </div>
+                <div class="all-timelines">
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>April 2024 </h6> <br />
+                                <b>Seneca Polytechnic</b> <br />
+                                - Graduated Honours Bachelor of Technology - Software Development Program
+                            </span>
+                            <div class="t-square"></div>
+                        </div>
                     </div>
-                </div>  <!-- /skill -->
-                <div class="skill">
-                    <div class="card">
-                        <h3 class="card__heading">Tools</h3>
-                        <ul class="card__list">
-                            <li>Jira</li>
-                            <li>Selenium</li>
-                            <li>Azure Devops</li>
-                            <li>Git/GitHub</li>
-                            <li>MSSQL</li>
-                            <li>Windows</li>
-                            <li>Linux</li>
-                        </ul>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>December 2022</h6> <br />
+                                <b>Ceridian</b> <br />
+                                - Initial co-op contract ended <br />
+                                - Signed new contract and continued working for Ceridian
+                            </span>
+                            <div class="t-square"></div>
+                        </div>
                     </div>
-                </div> <!-- /skill -->
-            </div> <!-- /skills -->
-
-            <a href="#work" class="btn">My Work</a>
-        </section>  
-
-        <!-- About Me -->
-        <section id="about" class="about-me">
-            <h2 class="section__title section__title--about">About me</h2>
-            <p class="section__subtitle section__subtitle--about">Who I am</p>
-            
-            <div class="about-me__body">
-                <p>Hi! I am a newly graduated Computer Science student. 
-                    During my time at Seneca Polytechnic, I have taken a Computer Programming & Analysis 
-                    program which was an Advanced Diploma as well as an Honours Bachelor of Technology - 
-                    Software Development program. 
-                </p>
-                <p>
-                    Being a self starter with a drive to learn and create new things by building software 
-                    and experimenting with different technology, I have been able to not only complete my 
-                    schooling but also gained invaluable work experience with different companies during my 
-                    co-op placements. I am currently working as a Test Engineer at <a href="https://www.dayforce.com/">Dayforce</a>. 
-                </p>
-            </div>
-
-            <img src="images\IMG_0020-removebg-preview.png" alt="A photo of Jaron" class="about-me__img">
-        </section>
-
-        <!-- Experience Timeline -->
-        <section id="experience-timeline" class="my-experience-timeline">
-            <div class="timeline-area">
-                <div class="container">
-                    <div class="timelines">
-                        <h2>Experience Timeline</h2>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>May 2022</h6> <br />
+                                <b>Ceridian</b> <br />
+                                - Started my co-op position as an Automation Test Engineer <br />
+                                - Gained Industry experience with C#, Selenium & SQL <br />
+                                - Gained Industry experience with refactoring a Monolithic code base utilizing several
+                                Design Patterns and Algorithms <br />
+                                - Reduce manual testing efforts each sprint by an average of 10%, by reviewing pull
+                                requests and maintaining existing tests <br />
+                                - Reduced on-boarding time for new team members by 30% on average by helping with
+                                evironment setups and being a point of contact <br />
+                            </span>
+                            <div class="t-square"></div>
+                        </div>
                     </div>
-                    <div class="all-timelines">
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>April 2024 </h6> <br />
-                                    <b>Seneca Polytechnic</b> <br />
-                                    - Graduated Honours Bachelor of Technology - Software Development Program
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>September 2020 </h6> <br />
+                                <b>Seneca Polytechnic</b> <br />
+                                - Enrolled in Honours Bachelor of Technology - Software Development
+                            </span>
+                            <div class="t-square"></div>
                         </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>December 2022</h6> <br />
-                                    <b>Ceridian</b> <br /> 
-                                    - Initial co-op contract ended <br />
-                                    - Signed new contract and continued working for Ceridian
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
+                    </div>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>August 2020</h6> <br />
+                                <b>Seneca Polytechnic</b> <br />
+                                - Graduated Computer Programming & Analysis Program<br />
+                                - AutoTrader Co-op placement ended
+                            </span>
+                            <div class="t-square"></div>
                         </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>May 2022</h6> <br />
-                                    <b>Ceridian</b> <br /> 
-                                    - Started my co-op position as an Automation Test Engineer <br />
-                                    - Gained Industry experience with refactoring a Monolithic code base with several Design Patterns and Algorithms <br /> 
-                                    - Gained Industry experience with C#, Selenium & SQL
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
+                    </div>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>May 2019</h6> <br />
+                                <b>AutoTrader</b> <br />
+                                - Started my co-op position <br />
+                                - Managed 20-30 customer requests at all times <br />
+                                - Gained Industry experience with JavaScript, CSS and WordPress <br />
+                                - Trained over 30% of clients who migrated on how to use their new WordPress sites by
+                                conducting webinars. <br />
+                                - Modified customer's web pages based on their requests. <br />
+                            </span>
+                            <div class="t-square"></div>
                         </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>September 2020 </h6> <br />
-                                    <b>Seneca Polytechnic</b> <br />
-                                    - Enrolled in Honours Bachelor of Technology - Software Development
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
-                        </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>August 2020</h6> <br /> 
-                                    <b>Seneca Polytechnic</b> <br /> 
-                                    - Graduated Computer Programming & Analysis Program<br /> 
-                                    - AutoTrader Co-op placement ended
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
-                        </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>May 2019</h6> <br />
-                                    <b>AutoTrader</b> <br /> 
-                                    - Started my co-op position <br /> 
-                                    - Gained Industry experience with JavaScript, CSS and WordPress <br />
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
-                        </div>
-                        <!--SINGLE TIMELINE-->
-                        <div class="single-timeline d-flex-2">
-                            <div class="timeline-blank"></div>
-                            <div class="timeline-text d-flex-2">
-                                <span>
-                                    <h6>January 2018</h6> <br /> 
-                                    <b>Seneca Polytechnic</b> <br /> 
-                                    - Enrolled in Computer Programming & Analysis
-                                </span>
-                                <div class="t-square"></div>
-                            </div>
+                    </div>
+                    <!--SINGLE TIMELINE-->
+                    <div class="single-timeline d-flex-2">
+                        <div class="timeline-blank"></div>
+                        <div class="timeline-text d-flex-2">
+                            <span>
+                                <h6>January 2018</h6> <br />
+                                <b>Seneca Polytechnic</b> <br />
+                                - Enrolled in Computer Programming & Analysis
+                            </span>
+                            <div class="t-square"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- My Work -->
-        <section id="work" class="my-work">
-            <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">Here are some of the projects I've worked on.</p>
-            <p class="section__description--work">Please select an image to view projects source code.</p>
+        </div>
+    </section>
+    <!-- My Work -->
+    <section id="work" class="my-work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Here are some of the projects I've worked on.</p>
+        <p class="section__description--work">Please select an image to view projects source code.</p>
 
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <span>
-                    <p>BugBeeGone - Bug Tracker application that uses C# and React</p>
-                    <a href="https://github.com/j-bloom/BugTracker" target="_blank" class="portfolio__item">
-                        <img src="images\BugBeeGone.PNG" alt="portfolio__img" />
-                    </a>
-                </span>
-                <!-- Portfolio item 02 -->
-                <span>
-                    <p>Task-Manager - Written in the MERN stack</p>
-                    <a href="https://github.com/j-bloom/Task-Manager" target="_blank" class="portfolio__item">
-                        <img src="images\task-manager-image.PNG" alt="portfolio__img" />
-                    </a>
-                </span>
-                
-                <!-- Portfolio item 03 -->
-                <span>
-                    <p>Sudoku Solver - Written in C++ using OpenMP parallel Programming</p>
-                    <a href="https://github.com/j-bloom/DPS921-Sudoku/tree/master/DPS%20921%20-%20Sudoku" target="_blank" class="portfolio__item">
-                        <img src="images\Sudoku.PNG" alt="portfolio__img" />
-                    </a>
-                </span>
-            </div>
-        </section>
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <span>
+                <p>BugBeeGone - Bug Tracker application that uses C# and React</p>
+                <a href="https://github.com/j-bloom/BugTracker" target="_blank" class="portfolio__item">
+                    <img src="images\BugBeeGone.PNG" alt="portfolio__img" />
+                </a>
+            </span>
+            <!-- Portfolio item 02 -->
+            <span>
+                <p>Task-Manager - Written in the MERN stack</p>
+                <a href="https://github.com/j-bloom/Task-Manager" target="_blank" class="portfolio__item">
+                    <img src="images\task-manager-image.PNG" alt="portfolio__img" />
+                </a>
+            </span>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <a href="mailto:jaron.bloom@gmail.com" class="footer__link">jaron.bloom@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a href="https://www.linkedin.com/in/jaron-bloom/" target="_blank" class="social-list__link">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a href="https://github.com/j-bloom" target="_blank" class="social-list__link">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+            <!-- Portfolio item 03 -->
+            <span>
+                <p>Sudoku Solver - Written in C++ using OpenMP parallel Programming</p>
+                <a href="https://github.com/j-bloom/DPS921-Sudoku/tree/master/DPS%20921%20-%20Sudoku" target="_blank"
+                    class="portfolio__item">
+                    <img src="images\Sudoku.PNG" alt="portfolio__img" />
+                </a>
+            </span>
+        </div>
+    </section>
 
-        <script src="js/index.js"></script>
-        
-    </body>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:jaron.bloom@gmail.com" class="footer__link">jaron.bloom@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/jaron-bloom/" target="_blank" class="social-list__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/j-bloom" target="_blank" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
 </html>
